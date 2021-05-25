@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#111238;
+    margin: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.menu-link{
+    color:#111238;
+    text-decoration: none;
+}
+
+.botton{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botton-link{
+    color: #111238;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.botton-primary{
+    background: #1A75E8;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+}
